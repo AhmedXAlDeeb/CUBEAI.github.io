@@ -3,6 +3,6 @@
 - [Frontend](frontend.md)
 - [Data Management](data.md)
 - [Backend](backend.md)
-- [Foundation Models](foundation-models.md)
+- [Foundation Models](foundationmodels.md)
 - [Self-Configuring Models](self-configuring.md)
 - [Model Deployment](deployment.md)

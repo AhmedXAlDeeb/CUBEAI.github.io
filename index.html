@@ -9,22 +9,23 @@
   <script>
     window.$docsify = {
       name: 'CUBEAI',
-      repo: '',                 // Add your GitHub repo URL here if you want a link in the top-right
-      loadSidebar: true,
-      subMaxLevel: 2,
+      repo: '',                // optional: add GitHub repo URL to show in top-right
+      loadSidebar: true,       // enable _sidebar.md
+      subMaxLevel: 2,          // sidebar heading depth
       loadNavbar: false,
-      basePath: 'docs/'         // Load markdown files from the docs/ directory
+      basePath: 'docs/'        // load all markdown from the docs/ directory
     };
   </script>
 
-  <!-- Docsify Default Theme -->
+  <!-- Docsify Theme (you can change vue.css to dark.css, buble.css, etc.) -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css" />
 
-  <!-- Optional: Favicon -->
+  <!-- Favicon (optional) -->
   <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5969/5969030.png" type="image/png" />
 </head>
 
 <body>
+  <!-- App Container -->
   <div id="app">Loading...</div>
 
   <!-- Docsify Script -->

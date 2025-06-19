@@ -1,5 +1,4 @@
-﻿- Sidebar
-- [Home](README.md)
+﻿- [Home](README.md)
 - [Overview](overview.md)
 - [Frontend](frontend.md)
 - [Data Management](data.md)

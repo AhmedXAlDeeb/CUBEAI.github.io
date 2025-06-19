@@ -1,32 +1,27 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>CUBEAI Docs</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
-</head>
-<body>
-  <div id="app"></div>
+
   <script>
     window.$docsify = {
       name: 'CUBEAI',
-      repo: 'AhmedXAlDeeb/CUBEAI.github.io',
+      repo: '',
       loadSidebar: true,
-
       subMaxLevel: 2,
-      basePath: 'docs/pages/',
-      auto2top: true,
-      search: {
-        maxAge: 86400000,
-        paths: 'auto',
-        placeholder: 'Search...',
-        noData: 'No results found.',
-        depth: 6
-      }
+      loadNavbar: false,
+      basePath: 'docs/'  // Tells Docsify to look in docs/
     };
   </script>
+
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5969/5969030.png" type="image/png" />
+</head>
+
+<body>
+  <div id="app">Loading...</div>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>

@@ -1,30 +1,33 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>CUBEAI Docs</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- Docsify Configuration -->
   <script>
     window.$docsify = {
       name: 'CUBEAI',
-      repo: '',
+      repo: '',                 // Add your GitHub repo URL here if you want a link in the top-right
       loadSidebar: true,
       subMaxLevel: 2,
-      loadNavbar: false
+      loadNavbar: false,
+      basePath: 'docs/'         // Load markdown files from the docs/ directory
     };
   </script>
 
-  <!-- Docsify default theme -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <!-- Docsify Default Theme -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css" />
 
-  <!-- Optional: favicon -->
-  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5969/5969030.png" type="image/png">
+  <!-- Optional: Favicon -->
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5969/5969030.png" type="image/png" />
 </head>
 
 <body>
   <div id="app">Loading...</div>
 
+  <!-- Docsify Script -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 </body>
 </html>

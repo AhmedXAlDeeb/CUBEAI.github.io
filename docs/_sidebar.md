@@ -1,9 +1,0 @@
-﻿- Sidebar
-- [Home](README.md)
-- [Overview](overview.md)
-- [Frontend](frontend.md)
-- [Data Management](data.md)
-- [Backend](backend.md)
-- [Foundation Models](foundation-models.md)
-- [Self-Configuring Models](self-configuring.md)
-- [Model Deployment](deployment.md)

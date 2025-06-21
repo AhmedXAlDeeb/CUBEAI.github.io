@@ -6,3 +6,4 @@
 - [Foundation Models](foundationmodels.md)
 - [Self-Configuring Models](self-configuring.md)
 - [Model Deployment](deployment.md)
+- [PACS Server](PACS.md)
